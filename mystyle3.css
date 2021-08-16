@@ -1,0 +1,56 @@
+.navbar-brand{
+     display: flex; 
+     flex-direction: coloumn; 
+     padding-left: 100px;
+     text-align: center;
+     height: 45px;
+     color: grey;
+ }
+
+#s{
+	padding-left: 1000px; 
+	padding-top: 6px; 
+	font-size: 12px; 
+	display: flex; 
+	flex-direction: row;
+	color: grey;}
+
+#main{
+     
+
+     margin-right: 500px;
+     margin-left:  500px;
+     margin-bottom: 500px;
+
+	}
+	#sign{
+		margin-top: 100px;
+        margin-left: 500px;
+        font-size: 40px;
+	}
+	button{
+		padding: 5px; 
+		background-color: dodgerblue; 
+		margin-top: 10px;
+		 border-radius: 2px; 
+		color: white;
+	}
+
+	@media only screen and (max-width: 600px){
+		#main{
+
+     margin-right: 5px;
+     margin-left:  5px;
+     margin-bottom: 0px;
+
+	}
+	#sign{
+		margin-top: 5px;
+        margin-left: 5px;
+        font-size: 40px;
+	}
+	button{
+		margin-top: 20px;
+	}
+
+	}

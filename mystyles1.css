@@ -1,0 +1,65 @@
+.navbar-brand{
+display: flex; 
+flex-direction: coloumn; 
+padding-left: 100px;
+text-align: center;
+height: 45px;
+color: grey;
+
+}
+#s{
+	padding-left: 1000px; 
+	padding-top: 6px; 
+	font-size: 12px; 
+	display: flex; 
+	flex-direction: row;
+	color: grey;
+}
+
+#top{
+	text-align: center; 
+	background-color: steelblue; 
+	height: 50px; 
+	width: all; 
+	margin: 0px; 
+	text-align: center; 
+	color: white; 
+	font-size: 20px;
+	padding: 7px;
+
+}
+button{
+	padding-left: 20px; 
+	padding-right: 20px;
+	background-color: steelblue; 
+	color: white;
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+
+#page{
+	margin-right: 300px; 
+	margin-left: 300px; 
+	margin-top: 150px; 
+	border: solid;
+	border-width: 2px; 
+	border-color: steelblue;
+}
+.ab{
+	text-align: center;
+	color: grey; 
+	padding-left: 400px; 
+	font-size: 15px;
+}
+
+@media only screen and (max-width: 600px){
+	#page{
+		margin: 0px;
+		border: none;
+
+	}
+.ab{
+	text-align: all;
+}
+
+}

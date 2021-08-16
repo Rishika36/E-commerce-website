@@ -1,0 +1,57 @@
+.navbar-brand{
+display: flex; 
+flex-direction: coloumn; 
+padding-left: 100px;
+text-align: center;
+height: 45px;
+color: grey;
+
+}
+#s{
+	padding-left: 1000px; 
+	padding-top: 6px; 
+	font-size: 12px; 
+	display: flex; 
+	flex-direction: row;
+	color: grey;
+}
+#order{
+
+    margin : 100px;
+    padding: 100px;
+  
+text-align: center;
+margin-left: 200px;
+border-style: solid;
+border-color: dodgerblue;
+border-width: 10px;
+}
+#ani{
+      font-size: 30px;
+}
+
+
+#ani :hover{
+	transition-duration: 0.5sec;
+
+	  transform: scale(1.5);
+
+}
+#you{
+
+	font-size: 30px;
+}
+@media only screen and (max-width: 600px){
+	#order{
+
+    margin : 1px;
+    padding: 100px;
+    margin-top: 50px;
+  
+text-align: center;
+margin-left:0px;
+border-style: solid;
+border-color: dodgerblue;
+border-width: 5px;
+}
+}
